@@ -33,7 +33,7 @@ Copy custommaps.min.js & custommaps.config.json (located in the [Dist](https://g
 
 ```
 
-initMap('Address', document.getElementById('map'));
+new custommaps().initMap('Address', document.getElementById('map'))
 
 ```
 ## Config
