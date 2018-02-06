@@ -18,7 +18,7 @@ Google maps script tag
 
 ### Installing
 
-Copy custommaps.min.js to your project and invoke initMap.
+Copy custommaps.min.js & custommaps.config.json (located in the dist folder) to your project and invoke initMap(Address, MapContainer).
 
 ```
 
