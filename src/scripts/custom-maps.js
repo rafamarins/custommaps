@@ -1,4 +1,4 @@
-//CUSTOM GOOGLE MAPS STYLE AND INITIALIZE ON BUTTON/TAB CLICK
+//CUSTOM GOOGLE MAPS STYLE
 function custommaps() {
 
     function loadMap(data, mapObject, configs) {
