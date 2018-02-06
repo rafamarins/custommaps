@@ -1,10 +1,11 @@
 # Custom Maps
 
-Easy way to get your custom skined google maps in your website
-
-## Getting Started
+Easy way to get your custom skinned google maps in your website
 
 
+## Example
+
+![Custom Maps in action](https://i.imgur.com/x96Lxt2.png)
 
 ### Prerequisites
 
