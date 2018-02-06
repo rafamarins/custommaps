@@ -5,7 +5,18 @@ Easy way to get your custom skinned google maps in your website
 
 ## Example
 
-![Custom Maps in action](https://i.imgur.com/x96Lxt2.png)
+Default Style
+```
+https://snazzymaps.com/style/151/ultra-light-with-labels
+```
+![Custom Maps in action](https://i.imgur.com/x96Lxt2.png) 
+```
+https://snazzymaps.com/style/2/midnight-commander
+```
+![Custom Maps in action](https://i.imgur.com/FBW243k.png)
+
+Find more at [SnazzyMaps](https://snazzymaps.com)
+
 
 ### Prerequisites
 
