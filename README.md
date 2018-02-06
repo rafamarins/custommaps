@@ -18,7 +18,7 @@ Google maps script tag
 
 ### Installing
 
-Copy custommaps.min.js & custommaps.config.json (located in the [Dist](https://github.com/rafamarins/custommaps/dist/) folder) to your project and invoke initMap(Address, MapContainer).
+Copy custommaps.min.js & custommaps.config.json (located in the [Dist](https://github.com/rafamarins/custommaps/tree/master/dist) folder) to your project and invoke initMap(Address, MapContainer).
 
 ```
 
