@@ -1,0 +1,31 @@
+{
+    "app": {
+        "paths": {
+            "dist": "/dist/assets/",
+            "distCSS": "",
+            "distJS": "",
+            "styles": "/src/sass/",
+            "scripts": "/src/scripts/"
+        },
+        "outputfilename": {
+            "scripts": "custommaps.min.js",
+            "css": "main.css"
+        },
+        "inputfilename": {
+            "css": "main.scss"
+        },
+        "watch": {
+            "styles": "css/*.css",
+            "scripts": "js/*.js"
+        }
+    },
+    "ftp": {
+        "enabled": false,
+        "host": "",
+        "user": "",
+        "password": "",
+        "port": 0,
+        "sftp": true,
+        "base": ""
+    }
+}
