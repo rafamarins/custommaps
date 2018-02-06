@@ -25,12 +25,11 @@ Copy custommaps.min.js to your project and invoke initMap.
 initMap('Address', document.getElementById('map'));
 
 ```
-
 ## Config
 
 Add your configs to the custommaps.config.json file.
 
-##Extras
+## Extras
 
 Scripts && Styles being processed with my Deploiii gulp set up. You should check that out.
 [Deploiii](https://github.com/rafamarins/deploiii)
