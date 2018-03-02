@@ -24,19 +24,27 @@ function custommaps() {
         var mapElement = mapObject;
 
         // Create the Google Map using our element and options defined above
-        var map = new google.maps.Map(mapElement, mapOptions);
+        window.customMap = new google.maps.Map(mapElement, mapOptions);
 
         // Let's also add a marker while we're at it
-        var marker = new google.maps.Marker({
-            position: new google.maps.LatLng(lat, lng),
-            map: map,
-        });
+        if (configs.marker.length > 0) {
+            window.marker = new google.maps.Marker({
+                position: new google.maps.LatLng(lat, lng),
+                icon: configs.marker,
+                map: window.customMap,
+            });
+        } else {
+            window.marker = new google.maps.Marker({
+                position: new google.maps.LatLng(lat, lng),
+                map: window.customMap,
+            });
+        }
 
         window.onresize = function(event) {
-            mapResize(map);
+            mapResize(window.customMap);
         };
 
-        mapResize(map);
+        mapResize(customMap);
     }
 
     function mapResize(map) {
@@ -79,8 +87,8 @@ function custommaps() {
         }
     }
 
-    this.initMap = function(address, mapElement) {
-        getJSON('assets/custommaps.config.json', function(status, data) {
+    this.initMap = function(configSrc, address, mapElement) {
+        getJSON(configSrc, function(status, data) {
             var configs = data.customMapsconfigs[0];
             getCenter(address, mapElement, configs);
         });
